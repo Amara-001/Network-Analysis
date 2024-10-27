@@ -38,14 +38,14 @@ In this network forensics analysis, I investigated a simulated SQL injection att
 ## Analysis
 
 ### Q1. Identifying Attacker’s IP
-*Fig.1: Identifying attacker’s IP address in Wireshark*(https://github.com/Amara-001/Network-Analysis/Attacker's IP address.png)
+*Fig.1: Identifying attacker’s IP address in Wireshark*!(https://github.com/Amara-001/Network-Analysis/Attacker's IP address.png)
 
 
 Using Wireshark, I filtered for `GET` requests to identify the attacker’s IP address, which is responsible for sending SQL injection payloads. The identified IP is **111.224.250.131**.
 
 
 ### Q2. Determining Origin City of Attacker
-*Fig. 2: Cisco Talos Intelligence reveals attacker’s IP origin*![Attacker IP Identification](https://github.com/your-username/your-repo-name/blob/main/path-to-image/filename.png)
+*Fig. 2: Cisco Talos Intelligence reveals attacker’s IP origin*!(https://github.com/your-username/your-repo-name/blob/main/path-to-image/filename.png)
 
 Using Cisco Talos Intelligence, I performed threat intelligence on the IP address **111.224.250.131**, which revealed the origin city of the attack to be Shijiazhuang, China
 
